@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tshirt</title>
+    <style>
+      .gaint-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .tshirt {
+        width: 600px;
+        display: flex;
+        /* flex-wrap: wrap; */
+        gap: 50px;
+        background-color: antiquewhite;
+        padding: 20px;
+      }
+      img {
+        width: 200px;
+      }
+      .tshirt-wrapper {
+        display: flex;
+        width: 500px;
+        flex-direction: column;
+      }
+      .sale {
+        align-self: flex-end;
+        background-color: bisque;
+      }
+      .buy {
+        align-self: flex-end;
+        background-color: blue;
+        color: wheat;
+      }
+      @media screen and (max-width: 1325px){
+        .gaint-wrapper{
+            /* justify-content: center; */
+            align-content: center;
+        }
+        .tshirt{
+            width:80%;
+            flex-wrap: nowrap;
+        }
+      }
+      @media screen and (max-width: 780px){
+        .gaint-wrapper{
+            justify-content: flex-end;
+            /* align-content: center; */
+        }
+        .tshirt{
+            width:100%;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+      }
+      @media screen and (max-width: 480px){
+        .gaint-wrapper{
+        display: flex;
+        flex-direction: column;
+            /* justify-content: center; */
+            /* align-content: center; */
+        }
+        .tshirt{
+        display: flex;
+            width:100%;
+            flex-direction: column;
+            /* justify-content: flex-end; */
+
+
+        }
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="gaint-wrapper">
+      <div class="tshirt">
+        <div class="thsirt-image">
+          <img src="/tshirt.jpg" />
+        </div>
+        <div class="tshirt-wrapper">
+          <div class="sale">
+            <p>20% OFF</p>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus minus iure expedita distinctio? Alias quisquam dolorum
+              cum minus quis necessitatibus omnis sunt, eveniet accusamus
+              dolorem repellat et fuga rerum sint.
+            </p>
+          </div>
+          <div class="buy">
+            <p>Buy Now</p>
+          </div>
+        </div>
+      </div>
+      <div class="tshirt">
+        <div class="thsirt-image">
+          <img src="/tshirt.jpg" />
+        </div>
+        <div class="tshirt-wrapper">
+          <div class="sale">
+            <p>20% OFF</p>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus minus iure expedita distinctio? Alias quisquam dolorum
+              cum minus quis necessitatibus omnis sunt, eveniet accusamus
+              dolorem repellat et fuga rerum sint.
+            </p>
+          </div>
+          <div class="buy">
+            <p>Buy Now</p>
+          </div>
+        </div>
+      </div>
+      <div class="tshirt">
+        <div class="thsirt-image">
+          <img src="/tshirt.jpg" />
+        </div>
+        <div class="tshirt-wrapper">
+          <div class="sale">
+            <p>20% OFF</p>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus minus iure expedita distinctio? Alias quisquam dolorum
+              cum minus quis necessitatibus omnis sunt, eveniet accusamus
+              dolorem repellat et fuga rerum sint.
+            </p>
+          </div>
+          <div class="buy">
+            <p>Buy Now</p>
+          </div>
+        </div>
+      </div>
+      <div class="tshirt">
+        <div class="thsirt-image">
+          <img src="/tshirt.jpg" />
+        </div>
+        <div class="tshirt-wrapper">
+          <div class="sale">
+            <p>20% OFF</p>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus minus iure expedita distinctio? Alias quisquam dolorum
+              cum minus quis necessitatibus omnis sunt, eveniet accusamus
+              dolorem repellat et fuga rerum sint.
+            </p>
+          </div>
+          <div class="buy">
+            <p>Buy Now</p>
+          </div>
+        </div>
+      </div>
+      <div class="tshirt">
+        <div class="thsirt-image">
+          <img src="/tshirt.jpg" />
+        </div>
+        <div class="tshirt-wrapper">
+          <div class="sale">
+            <p>20% OFF</p>
+          </div>
+          <div class="description">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus minus iure expedita distinctio? Alias quisquam dolorum
+              cum minus quis necessitatibus omnis sunt, eveniet accusamus
+              dolorem repellat et fuga rerum sint.
+            </p>
+          </div>
+          <div class="buy">
+            <p>Buy Now</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
